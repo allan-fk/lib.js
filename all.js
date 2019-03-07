@@ -7,12 +7,14 @@ function factor(nb) {
         nb--;
     }
     return(fac);
-}function longWrd(str) {
+}
+function longWrd(str) {
     var str = str.split(' ').sort((a, b) => { 
         return b.length - a.length;
     }).splice(0,1);
     return(str[0]);
-}function simpleAdd(nb) {
+}
+function simpleAdd(nb) {
     if (nb !== 0)
         return nb + simpleAdd(nb-1);
     else
