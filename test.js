@@ -10,4 +10,4 @@ var tools = require('./rev');
 
 console.log(tools.rev([-32, 1, 2, 5, 3]));
 
-lckkcklckl, klc, sl, cklsd,
+lckkcklc
