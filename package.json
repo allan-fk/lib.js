@@ -1,5 +1,5 @@
 {
-  "name": "lib",
+  "name": "toast_lib",
   "version": "1.0.0",
   "description": "Personal library for JS",
   "main": "all.js",
@@ -11,16 +11,5 @@
     "url": "git@framagit.org:allanfk/lib.js.git"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/node": "^7.2.2",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
-    "@babel/preset-stage-2": "^7.0.0",
-    "@babel/register": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "babel-register": "^6.26.0"
-  }
+  "license": "ISC"
 }
