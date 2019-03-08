@@ -6,6 +6,8 @@ include('./all.js');*/
 //import strReverse from './strReverse'
 //var app = require('./strReverse');
 // import * as fun from './strReverse.mjs'
-var tools = require('./strReverse');
+var tools = require('./rev');
 
-console.log(tools.strReverse('I love Paris'));
+console.log(tools.rev([-32, 1, 2, 5, 3]));
+
+lckkcklckl, klc, sl, cklsd,

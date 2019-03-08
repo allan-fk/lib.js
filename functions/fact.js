@@ -1,4 +1,4 @@
-function factor(nb) {
+function fact(nb) {
     var fac = 1;
     if (nb == 0)
         return 1;
@@ -6,5 +6,5 @@ function factor(nb) {
         fac = fac * nb;
         nb--;
     }
-    return(fac);
+    return (fac);
 }
