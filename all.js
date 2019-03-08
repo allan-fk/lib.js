@@ -37,9 +37,15 @@ module.exports = {
                 tab.push(val),
                 val = []
         })
+        
         sort = tab.sort(function (a, b) {
             return a[1] - b[1];
         });
         return (sort);
+    },
+    toast: function (str) {
+        console.log(module.exports.strReverse(str));
     }
 }
+
+module.exports.toast('Toast la vie');
